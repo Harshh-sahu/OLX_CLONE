@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    background:#FFF;
+}
+
+.logo{
+    
+    width:48px;
+    margin-left: 13px;
+    height: 25Px;
+
+  
+}
+.search_logo{
+
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+}
+.bgcolor{
+    background-color: #ffffff;
+
+}
+.navbar{
+
+
+    display: flex;
+width: 10px;
+
+align-items: center;
+    
+}
+.options_palete{
+    display: flex;
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-top: 4px;
+    justify-content: start;
+    border-radius: 3%;
+    height: 45px;
+}
+.options_palete select{
+
+    align-items: center;
+    width: 230px;
+    height: 40px;
+    border: none;
+
+}
+
+.options_palete img{
+    margin-top: 3px;
+    margin-left: 2px;
+  height: 35px;
+  width: 15px;
+  
+}
+.input{
+    display: flex;
+   margin-left: 30px;
+   border: 2px solid black;
+   margin-top: 4px;
+   height: 50px;
+   border-radius: 2px;
+}
+.input input{
+   
+    width: 680px;
+    border-radius: 3%;
+     border: none;
+}
+.input input::placeholder{
+   
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 600;
+}
+.search_logo{
+    
+    
+    height: 50px;
+    border: none;
+    background-color: #002f34;
+    cursor: pointer;
+}
+
+.search_logo img{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.language{
+    margin-top: 4px;
+    margin-left: 20px;
+   border: none;
+    height: 50px;
+    cursor: pointer;
+   
+}
+.language select{
+     margin-top: 5px;
+      height: 40px;
+      width: 80px;
+      border: none;
+}
+
+.chat{
+    cursor: pointer;
+margin-left: 20px;
+margin-top: 10px;
+
+}
+.bell-icon{
+width: 40px;
+align-items: center;
+margin-top: 10px;
+margin-left: 20px;
+}
+.bell-icon img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.profile{
+    margin-left: 22px;
+    
+cursor: pointer;
+    
+
+    display: flex;
+    
+    height: 40px;
+}
+.profile svg{
+    width: 40px;
+    height: 50px;
+    
+}
+.profile img{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 25px;
+    height: 20px;
+}
+.sell_logo{
+ margin-top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+.k{
+   position: relative;
+}
+
+
+  
+  .overlay {
+    position: absolute; 
+    
+    
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay_0 {
+    right: 0;
+    top: 12px;
+
+    padding: .5rem;
+    margin: 4px;
+    margin-right: 35px;
+   
+  }
+  nav{
+    display: flex;
+    align-items: center;
+  
+    padding: 15px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,.2);
+  
+}
+
+nav select{
+    width: 170px;
+    margin-left: 100px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1px;
+    font-size: medium;
+    letter-spacing: 1px;
+
+    appearance: none; /* remove default appearance set by the browser */        outline: none; /* remove the outline shown on focus */        cursor: pointer; /* change the mouse cursor icon */
+    border: none;
+}
+.dropdown-img {
+   margin-top: 5px;  
+
+}
+
+.link{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #002f34;
+text-decoration: none;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+.Header{
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    
+}
+
+
+.movies-container{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+.movies-grid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+.card{
+    width: clamp(150px,95vw , 270px);
+    /* box-shadow: 0 0 0.5rem rgba(255 , 0 , 0 , 1); */
+    border: 1px solid rgba(106, 105, 105, 0.705);
+    overflow: hidden;
+    color: black;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.img{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 90%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    transition: 200ms ease-in-out transform;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info{
+    padding: 2rem 1rem 1rem;
+    text-align: left;
+}
+.info h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.single-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+}
+
+.btn-load-more{
+    align-items: center;
+    margin-left: 50vw;
+    height: 100px;
+}
+
+.btn-load-more button{
+ width: 100px;
+ height: 50px;
+ margin-top: 20px;
+ border-radius: 5px;
+ border: 3px solid #002f34;
+ font-size: medium;
+ font-weight: 10px;
+ color: #002f34;
+}
+
+.advertisement-section{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+fill: #83848421;
+}
+
+.olxapp h2{
+    color: #002f34;
+      margin-top: 60px;
+      font-size: 35px;
+      margin-left: 20px;
+      align-items: left;
+      font-style: default;
+
+}
+
+.olxapp p{
+    color: #002f34;
+    margin-left: 20px;
+    align-items: left;
+    font-style: serif;
+    font-size: 20px;
+
+}
+.app-icon-text{
+    color: #002f34;
+    margin-left: 60px;
+    align-items: left;
+    font-style: serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+
+
+}
+.olxapp{
+
+}
+.image-ed{
+    margin-left: 50px;
+    margin-top: 1px;
+
+
+
+}
+.footer{
+
+    display: flex;
+    justify-content: space-evenly
+}
+
+.p1 p{
+    color: black;
+    font-size: large;
+      font-weight: 600;
+}
+
+.p1 span{
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+    
+
+}
+.last{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #002f34;
+    height: 50px;
+}
+.last p{
+    background-color: #002f34;
+      color: white;
+}
